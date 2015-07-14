@@ -28,6 +28,7 @@ CREATE TABLE District
 
 CREATE TABLE Customer
 (
+  
   custNo Varchar(5) NOT NULL,
   custName Varchar(30) NOT NULL,
   custGender Varchar(1) NOT NULL,
