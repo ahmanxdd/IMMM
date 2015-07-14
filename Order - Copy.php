@@ -1,4 +1,5 @@
 <?php
+	//adfjasd;fkljas;dfl
 	//記住唔好hardcode column名
 	function getOrder($orderNo) {
 		$query = "SELECT * FROM OrderLine "
@@ -35,6 +36,7 @@
 		return DB::query($query);
 	}
 	
+	//adsfhalkjsdfjaskdf;java_last_exception_clear
 	function getOrdresByCatNo($catNo) {
 		//desc, asc
 			//return orders, ONLY all fields in CustOrder.
